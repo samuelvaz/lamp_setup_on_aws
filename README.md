@@ -9,6 +9,7 @@ To access the EC2 instance, use the following SSH command:
 ssh -i "<key-pair-file-name>" <username>@<ip-address>
 ```
 
+
 ## Installing Apache2
 ### Update package information:
 
@@ -39,6 +40,7 @@ sudo systemctl status apache2
 sudo systemctl enable apache2
 ```
 
+
 ## Installing MySQL Server
 ### Install MySQL Server:
 
@@ -51,6 +53,7 @@ sudo apt install mysql-server
 ``` bash
 sudo systemctl status mysql
 ```
+
 
 ## MySQL Secure Installation
 
@@ -84,6 +87,7 @@ FLUSH PRIVILEGES;
 \q
 ```
 
+
 ## Installing PHP
 ### Install PHP along with necessary packages for integration with Apache2 and MySQL:
 
@@ -95,10 +99,8 @@ sudo apt install php libapache2-mod-php php-mysql
 ### Configuring PHP
 ### Configure Apache2 to use PHP:
 
-
 ``` bash
 sudo nano /etc/apache2/mods-enabled/dir.conf
-
 ```
 
 ### Edit the dir.conf file by adding index.php:
@@ -116,14 +118,9 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 ``` bash
 sudo apt install phpmyadmin
 ```
-----
-*NOTE*
-Use MySQL user credentials created during mysql_secure_installation to log into PHPMyAdmin.
----
-
+Note: Use MySQL user credentials created during mysql_secure_installation to log into PHPMyAdmin.
 
 ### Configure PHPMyAdmin with Apache2:
-
 
 ``` bash
 sudo nano /etc/apache2/apache2.conf
@@ -135,9 +132,9 @@ sudo nano /etc/apache2/apache2.conf
 Include /etc/phpmyadmin/apache.conf
 ```
 
+
 ## Creating a Web Page
 ### Create an 'index.php' file in '/var/www/html/' and paste a sample HTML/PHP script:
-
 
 ``` bash
 sudo nano /var/www/html/index.php
