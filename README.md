@@ -116,9 +116,8 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 ``` bash
 sudo apt install phpmyadmin
 ```
-
-**NOTE**
-
+----
+*NOTE*
 Use MySQL user credentials created during mysql_secure_installation to log into PHPMyAdmin.
 ---
 
