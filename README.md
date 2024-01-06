@@ -10,7 +10,7 @@ To access the EC2 instance, use the following SSH command:
 ``` bash
 ssh -i "<key-pair-file-name>" <username>@<ip-address>
 ```
-#### for example: 
+For example: 
 ``` Bash
 ssh -i "key.pem" king@1.2.3.4
 ```
@@ -74,7 +74,7 @@ sudo mysql_secure_installation
 ``` sql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'newpassword';
 ```
-#### For Example:
+For Example:
 ``` sql
 CREATE USER 'king'@'localhost' IDENTIFIED BY 'ExamplePasswd@69';
 
