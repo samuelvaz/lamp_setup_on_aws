@@ -1,6 +1,6 @@
 # LAMP SETUP
 # Introduction
-This README file provides detailed instructions for setting up a basic web server environment on an EC2 instance. The process involves installing and configuring Apache2, MySQL Server, PHP, and PHPMyAdmin. Follow the steps below for a successful setup.
+This README file provides detailed instructions for setting up a web server environment on an EC2 instance using the LAMP(Linux, Apache, MySQL, PHP) stack. The process involves installing and configuring Apache2, MySQL Server, PHP, and PHPMyAdmin. Follow the steps below for a successful setup.
 
 ## SSH Login
 To access the EC2 instance, use the following SSH command:
