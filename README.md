@@ -10,6 +10,10 @@ To access the EC2 instance, use the following SSH command:
 ``` bash
 ssh -i "<key-pair-file-name>" <username>@<ip-address>
 ```
+#### for example: 
+``` Bash
+ssh -i "key.pem" king@1.2.3.4
+```
 
 
 ## Installing Apache2
@@ -141,7 +145,7 @@ Include /etc/phpmyadmin/apache.conf
 ``` bash
 sudo nano /var/www/html/index.php
 ```
-This README file provides a step-by-step guide to set up an EC2 instance with Apache2, MySQL Server, PHP, and PHPMyAdmin. Follow these instructions carefully to establish a basic web server environment. For more information or troubleshooting, refer to the specific sections above.
+This README file provides a step-by-step guide to set up an EC2 instance with Apache2, MySQL Server, PHP, and PHPMyAdmin. Follow these instructions carefully to establish a basic web server environment. For more information or troubleshooting, refer to the specific sections above. 
 
 
 
