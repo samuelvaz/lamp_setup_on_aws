@@ -73,8 +73,13 @@ sudo mysql_secure_installation
 
 ``` sql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'newpassword';
+```
+#### For Example:
+``` sql
+CREATE USER 'king'@'localhost' IDENTIFIED BY 'ExamplePasswd@69';
 
 ```
+
 ### Grant privileges to the new user:
 
 ``` sql
