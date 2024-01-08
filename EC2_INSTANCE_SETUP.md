@@ -1,4 +1,4 @@
-# Setting Up an EC2 Instance on AWS for LAMP Stack
+# Setting Up an AWS EC2 Instance for LAMP Stack
 
 ## Step 1: Sign in to AWS Console
 
