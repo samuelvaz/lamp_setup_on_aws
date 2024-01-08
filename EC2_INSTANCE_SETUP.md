@@ -50,14 +50,25 @@
 - Review your configuration settings. Click "Launch" when you are ready.
   ![img](/images/aws/3.png)
 
+## Step 13: Add Inbound Rules
+- Create Inbound rules for HTTP, HTTPS, and SSH.
+- Create a SSH rule for allowing connection only from your IPv4
+- Create HTTP and HTTPS rules for allowing traffic from anywhere
+- Refer below screenshots
+  ![img](/images/aws/6.png)
+  ![img](/images/aws/7.png)
+  ![img](/images/aws/8.png)
 
-## Step 12: Connect to Your Instance
+
+## Step 13: Connect to Your Instance
 
 - Use the key pair you generated to connect to your instance using SSH. The connection command will look like this:
 
   ```bash
   ssh -i "your-key-pair.pem" ubuntu@your-instance-ip
   ```
+- Refer below screenshots
+  ![img](/images/aws/4.png)
   ![img](/images/cmd/1.png)
 
 #### Now that you have setup your EC2 instance, check out the link below for how to setup LAMP stack
