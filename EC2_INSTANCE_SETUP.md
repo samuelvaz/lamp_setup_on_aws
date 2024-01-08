@@ -1,4 +1,4 @@
-# Setting Up an EC2 Instance on AWS with Free Tier and Ubuntu AMI
+# Setting Up an EC2 Instance on AWS for LAMP Stack
 
 ## Step 1: Sign in to AWS Console
 
